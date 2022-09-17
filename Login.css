@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  height: 864px;
+  
+}
+.main-container{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedor-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50%;
+  background-image: url("./assets/cerveza.jpg");
+  background-size: cover;
+  background-attachment: contain;
+  background-position: center;
+  border-radius: 0  20px 20px 0;
+  box-shadow: 7px 7px 11px 0px rgba(68,68,68,1);
+}
+
+.contenedor-rigth {
+  width: 50%;
+  background-size: cover;
+  background-image: url("./assets/BG_Login.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-form > h1 {
+  color:#2d694c;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.container-form > h3 {
+  margin: 0 0 25px 0;
+  color: #865403;
+  font-weight: 400;
+}
+
+.input-mail {
+  width: 110%;
+  height: 30px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  background-color: #ededed;
+  border: 1px solid #706f6f;
+}
+
+.input-password {
+  width: 110%;
+  height: 30px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  background-color: #ededed;
+  border: 1px solid #706f6f;
+}
+
+.check-password {
+  font-size: small;
+  margin: 0 0 8px 0;
+}
+
+.check-box {
+  background-color: #ededed;
+  border: 1px solid #706f6f;
+}
+
+
+.forget-pass {
+  text-align: center;
+  margin-bottom: 28px;
+  font-size: small;
+}
+
+.btn-submit {
+  text-align: center;
+}
+
+.cont-btn{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-submit {
+  background-color: #fe9623;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 28px 0 28px;
+  height: 30px;
+  border-radius: 16px;
+  border: none;
+}
+
+.container-logo{
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 60%;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 12px );
+  -webkit-backdrop-filter: blur( 12px );
+  border-radius: 30px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.img-log{
+
+  scale: flex;
+  
+}
+
+
