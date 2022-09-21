@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url("../assets/BG_Superadmin.png");
+  background-size: cover;
+  background-attachment: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav-top {
+  background: rgba( 11, 0, 0, 0.6 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 0 0 32px 32px;
+}
+.nav-bot {
+  background: rgba( 11, 0, 0, 0.6 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 0 0 32px 32px;
+}
+
+
+
+.container-img-user {
+  height: 50px;
+  width: 50px;
+  align-items: center;
+}
+
+.img-user {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-top > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-top-rigth{
+  margin: 16px 0 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-top-left {
+  margin: 16px 0 0 48px;
+  display: flex;
+  gap: 48px;
+  margin: 0 48px 0 0;
+}
+
+.nav-bot > ul {
+  list-style: none;
+  display: flex;
+}
+
+.container-title{
+  margin-left: 18px;
+}
+
+.welcome-user {
+  color: #e8c052;
+}
+.rol-user{
+  color: #e8c052;
+}
+
+#btn-principal {
+  border-radius: 30px;
+  padding: 6px;
+  object-fit: cover;
+  background: rgba( 245, 243, 243, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0px );
+  -webkit-backdrop-filter: blur( 0px );
+  border: 1px solid rgba( 112, 111, 111, 0.37 );
+}
+
+.search-bar-nav{
+  width: 800px;
+  height: 100%;
+  background: rgba( 245, 243, 243, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0px );
+  -webkit-backdrop-filter: blur( 0px );
+  border: 1px solid rgba( 112, 111, 111, 0.37 );
+  border-radius: 12px;
+}
+.search-bar-nav::placeholder {
+  color: #dadada;
+}
+
+.mail-btn > img{
+  width: 30px;
+  height: 30px;
+
+  
+}
+
+.nav-bot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bot> ul{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 150px;
+  padding: 0;
+  margin: 16px 0 16px 0;
+
+}
+
+.nav-bot> ul> li{
+  display: flex;
+  
+}
+

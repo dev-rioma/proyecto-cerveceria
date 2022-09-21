@@ -1,0 +1,140 @@
+.section-data{
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.container-left{
+  background-color: rgba(13, 21, 32, 0.8);
+  border-radius: 32px;
+  width: 35%;
+}
+
+#list-data{
+  color: #ffff;
+  list-style: none;
+}
+
+#list-data>li>h6{
+  margin-bottom: 3px;
+}
+
+#list-data>li>p{
+  margin-bottom: 12px;
+}
+
+.title-cont-left{
+  color: #e8c052;
+  margin: 15px 0 10px 20px;
+}
+
+.container-rigth{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.container-rigth-top{
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 32px;
+  padding: 25px;
+}
+
+.menu-slide>a{
+  text-decoration: none;
+  padding: 4px;
+  color: black;
+  margin-left: 22px;
+}
+
+.menu-slide>a:first-child{
+  border-bottom: 3px #2d694c solid;
+}
+
+.container-info-rigth{
+  display: flex;
+  flex-direction: columns;
+  margin: 10px 0 10px 0px;
+}
+
+#list-resumen-rigth{
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+}
+
+#list-resumen-rigth>li{
+  margin-bottom: 12px;
+}
+
+#list-resumen-rigth>li>p{
+  margin-bottom: 0;
+}
+
+.input-data{
+  font-weight: bold;
+}
+
+.container-rigth-bot{
+  display: flex;
+  flex-direction: columns;
+  gap: 24px;
+}
+
+.bot-left{
+  background: rgba(255, 255, 255, 0.6);
+  align-items: center;
+  padding: 30px;
+  border-radius: 32px;  
+}
+
+
+
+.container-orgs {
+  margin-top: 10px;
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 12px;
+}
+
+
+.title-org{
+  color: #2d694c;
+  margin-bottom: 12px;
+}
+
+.dropdown-btn{
+  width: 820px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 8px 12px 8px 12px;
+  align-items: center;
+}
+.dropdown-menu{
+  width: 820px;
+}
+
+.container-feedback{
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 8px;
+  border-radius: 12px;
+  border-left: 5px #2d694c solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-feedback>p{
+  margin: 0;
+  font-weight: bold;
+  margin: 0 10px 0 10px;
+}
+
+.container-feedback>button{
+  border: none;
+  background: transparent;
+  
+}
