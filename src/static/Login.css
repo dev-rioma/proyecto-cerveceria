@@ -3,12 +3,13 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   height: 864px;
-  
 }
 .main-container{
   height: 100%;
   display: flex;
   flex-direction: row;
+  margin: 0;
+  padding: 0;
 }
 
 .contenedor-left {
@@ -17,27 +18,34 @@ body {
   align-items: center;
   position: relative;
   width: 50%;
+  height:100%;
   background-image: url("./assets/cerveza.jpg");
   background-size: cover;
   background-attachment: contain;
   background-position: center;
   border-radius: 0  20px 20px 0;
   box-shadow: 7px 7px 11px 0px rgba(68,68,68,1);
+  margin: 0;
+  padding: 0;
 }
 
 .contenedor-rigth {
   width: 50%;
+  height: 100%;
   background-size: cover;
   background-image: url("./assets/BG_Login.png");
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .container-form {
   display: flex;
   flex-direction: column;
+  width: 24rem;
 }
 
 .container-form > h1 {
@@ -82,10 +90,17 @@ body {
 }
 
 
-.forget-pass {
+.btn-forguet-pass {
+  text-decoration:underline;
+  background: transparent;
+  border: none;
   text-align: center;
   margin-bottom: 28px;
-  font-size: small;
+  font-size: medium;
+}
+
+.btn-forguet-pass:hover {
+  color:blue;
 }
 
 .btn-submit {
@@ -94,7 +109,7 @@ body {
 
 .cont-btn{
   display: flex;
-  justify-content: center;
+  
 }
 
 .btn-submit {
@@ -102,8 +117,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 28px 0 28px;
-  height: 30px;
+  padding: 0 12px 0 12px;
+  width: 12rem;
+  height: 2rem;
   border-radius: 16px;
   border: none;
 }
@@ -126,5 +142,50 @@ body {
   scale: flex;
   
 }
+
+#show-hide{
+  display: none;
+}
+
+.forguet-password{
+  flex-direction: columns;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-recovery-password{
+  text-align: center;
+}
+
+.text-verification{
+  text-align: center;
+  line-height:1.5rem;
+  
+}
+
+.input-recovery-pass{
+  width: 80%;
+  height: 30px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  background-color: #ededed;
+  border: 1px solid #706f6f;
+}
+
+.send-email-verification{
+  background-color: #fe9623;
+  width: 4rem;
+  padding: 12px;
+  border-radius: 16px;
+  border: none;
+}
+
+.container-btn-submit{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  align-items: center;
+}
+
 
 

@@ -26,9 +26,16 @@
             <input class="input-mail" type="text" name="userName" placeholder="Correo"/>
             <input class="input-password" type="password" name="clave" placeholder="Contraseña">
             <p class="check-password"><input class="check-box" type="checkbox"> Recuerdame</p>
-            <a class="forget-pass" href="/">Olvide mi contraseña</a>
-            <div class="cont-btn">
-            <button class="btn-submit" type="submit">Iniciar Sesion</button>
+            <button type="button" class="btn-forguet-pass" onclick="toggleHideAndShow()" >Olvide mi contraseña</button>
+            <div class="forguet-password" id="show-hide">
+              <h3 class="title-recovery-password">Restablecimiento de contraseña</h3>
+              <p class="text-verification">Pon la dirección de correo electrónico que usaste para registrarte. Te enviaremos un mensaje con tu nombre de usuario y un enlace para restablecer tu contraseña.</p>
+              <input class="input-recovery-pass" type="email" placeholder="Correo de recuperaion">
+              <button type="submit" class="send-email-verification">Enviar</button>
+            </div>
+            <div class="container-btn-submit">
+              <button class="btn-submit" type="submit">Iniciar Sesion</button>
+            </div>
           </form>
         </div>
       </div>
@@ -37,4 +44,5 @@
   
   
 </body>
+<script src="../static/Login.js"></script>
 </html>
