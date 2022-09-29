@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+  <title>Bienvenido</title>
+  <link rel="stylesheet" href="../static/Login.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="contenedor-left">
+      <div class="container-logo">
+        <img class="img-log" src="../static/assets/Logo_Cervecerias.svg" alt="">
+      </div>
+    </div>
+    <div class="contenedor-rigth">
+      <div class="container-form">
+          <!-- Se ingreso el formulario en un form-->
+          <form class="container-form" action="/login" method="POST">
+            <h1>Bienvenido</h1>
+            <h3>A nuestro portal de empleados</h3>
+            <input class="input-mail" type="text" name="userName" placeholder="Correo"/>
+            <input class="input-password" type="password" name="clave" placeholder="Contraseña">
+            <p class="check-password"><input class="check-box" type="checkbox"> Recuerdame</p>
+            <a class="forget-pass" href="/">Olvide mi contraseña</a>
+            <div class="cont-btn">
+            <button class="btn-submit" type="submit">Iniciar Sesion</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
